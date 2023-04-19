@@ -1,0 +1,70 @@
+<div class="container">
+  <!-- <div class="row justify-content-center"> -->
+<div class="form">
+  
+    <form #myForm="ngForm" [formGroup]="productForm" 
+    (ngSubmit)="onSubmit(); myForm.resetForm()" >
+      <div class="heading">
+      <h2>This is a merchant page.</h2>
+      <h3>You can add your product here.</h3>
+    </div>
+      <br>
+
+        
+        <div class="form-group" style="font-weight: 500;">
+            <label for="name">Your Name</label>
+            <input type="text" style="border-color: black;" formControlName="name" class="form-control" id="name" placeholder="Enter your name ">
+          </div>
+          <div class="form-group" style="font-weight: 500;">
+            <label for="exampleFormControlInput1">Phone Number</label>
+            <input type="number" style="border-color: black;" formControlName="phone" class="form-control" id="exampleFormControlInput1" placeholder="+91 **********">
+          </div>
+          <div class="form-group" style="font-weight: 500;">
+            <label for="exampleFormControlInput1">Email</label>
+            <input type="email" style="border-color: black;" formControlName="email" class="form-control" id="exampleFormControlInput1" placeholder="abc@gmail.com">
+          </div>
+          <div class="form-group" style="font-weight: 500;">
+            <label for="exampleFormControlInput1">Address</label>
+            <input type="text" style="border-color: black;" formControlName="address" class="form-control" id="exampleFormControlInput1" placeholder="Write yor address">
+          </div>
+          <div class="form-group" style="font-weight: 500;">
+            <label for="exampleFormControlSelect1">State</label>
+            <select class="form-control" style="border-color: black;" formControlName="state" id="exampleFormControlSelect1">
+              <option>Assam</option>
+              <option>Bihar</option>
+              <option>Chattisgarh</option>
+              <option>Jharkhand</option>
+              <option>Kerela</option>
+            </select>
+          </div>
+          <div class="form-group" style="font-weight: 500;">
+            <label for="exampleFormControlInput1">Product title</label>
+            <input type="text" style="border-color: black;" formControlName="product_title" class="form-control" id="exampleFormControlInput1" placeholder="">
+          </div>
+          <div class="form-group" style="font-weight: 500;">
+            <label for="exampleFormControlInput1">Description</label>
+            <input type="text" style="border-color: black;" formControlName="description" class="form-control" id="exampleFormControlInput1" placeholder="Details of the product">
+          </div>
+          <div class="form-group" style="font-weight: 500;">
+            <label for="exampleFormControlInput1">Product price</label>
+            <input type="number" style="border-color: black;" formControlName="price" class="form-control" id="exampleFormControlInput1" placeholder="Enter product amount">
+          </div>
+          <div class="form-group" style="font-weight: 500;">
+            <label for="exampleFormControlInput1">Product image</label>
+            <input type="file" style="border-color: black;" formControlName="image" class="form-control" id="exampleFormControlInput1" placeholder="Select file type" accept=".jpg, .jpeg, .png">
+          </div>
+       
+        <div class="form-group" style="font-weight: 500;">
+          <label for="exampleFormControlTextarea1">Additional Information</label>
+          <textarea formControlName="info" style="border-color: black;" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <br>
+        
+        <button style="color: black; font-weight: 590;" class="btn btn-primary" [disabled]="productForm.invalid"  (click)="addProduct()" >SUBMIT</button>
+        <p >{{ submittedMessage }}</p>
+        
+        <br><br>
+    
+  </form>
+</div>
+</div>

@@ -9,12 +9,15 @@ import { ProductsComponent } from './components/products/products.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FilterPipe } from './shared/filter.pipe';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { OrdersComponent } from './components/orders/orders.component';
-import { AccountsComponent } from './components/accounts/accounts.component';
+import { AccountsComponent } from './components/register/accounts/accounts.component';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AngularFireModule } from '@angular/fire';
 import { environment } from 'src/environments/environment';
 import { FirebaseService } from './services/firebase.service';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { OrderPlacedComponent } from './components/order-placed/order-placed.component';
+import { YourOrderComponent } from './components/your-order/your-order.component';
+import { SellingComponent } from './components/selling/selling.component';
 
 
 
@@ -25,10 +28,12 @@ import { FirebaseService } from './services/firebase.service';
     CartComponent,
     ProductsComponent,
     FilterPipe,
-    OrdersComponent,
     AccountsComponent,
-
+    OrderPlacedComponent,
+    YourOrderComponent,
+    SellingComponent
   ],
+  
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -36,9 +41,14 @@ import { FirebaseService } from './services/firebase.service';
     FormsModule,
     ReactiveFormsModule,
     AngularFirestoreModule,
-    AngularFireModule.initializeApp(environment.config)
+    AngularFireModule.initializeApp(environment.config),
+    BrowserAnimationsModule
+    
   ],
+
   providers: [FirebaseService],
   bootstrap: [AppComponent]
+
 })
+
 export class AppModule { }

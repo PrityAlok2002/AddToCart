@@ -29,6 +29,10 @@ export class ProductsComponent implements OnInit {
              a.category="fashion"
         }
 
+        if(a.category==="women's clothing"){
+             a.category="thrift"
+        }
+
         Object.assign(a,{quantity:1,total:a.price})  
       });
       console.log(this.productList)
@@ -42,6 +46,8 @@ export class ProductsComponent implements OnInit {
 
   addtocart(item : any){
     this.cartservice.addToCart(item)
+    // alert(`${item} ,ADDED SUCCESSFULLY`)
+    alert(`ADDED SUCCESSFULLY`)
 
   }
   filter(category:string){

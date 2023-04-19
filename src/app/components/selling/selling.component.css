@@ -1,0 +1,22 @@
+
+form{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 3%;
+    
+
+}
+.modal-footer{
+    position: center;
+}
+.heading{
+    position: center;
+}
+*{
+    background-color: lightsteelblue;
+}
+
+.submittedMessage{
+    color: green;
+    font-weight: bold;
+}

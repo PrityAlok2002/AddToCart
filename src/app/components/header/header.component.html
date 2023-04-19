@@ -1,28 +1,27 @@
-<header>
-    <div class="navbar navbar-dark bg-primary shadow-sm">
+<header style="background-color:rgb(122, 161, 245);">
+    <div class="navbar navbar-custom">
         <div class="navbar-brand align-item-center d-flex">
-            <i style="font-size: 40px;"
+            <i style="font-size: 40px; color: navy;"
              class="fas fa-shipping-fast">&nbsp;   
             </i>
-            <strong style="font-size: 30px;">Aaakart</strong>
+            <strong style="font-size: 30px; color: white;" routerLink="">Aaakart</strong>
 
             <div class="form-group">
-                <input type="text" class="form-control" [(ngModel)]="searchTerm" (keyup)="search($event)" placeholder="search products">
+                <input type="text"  class="form-control" [(ngModel)]="searchTerm" (keyup)="search($event)" placeholder="search products">
             </div>
-            <span class="fas fa-search search-icon"></span>
+            <span style="color: black;" class="fas fa-search search-icon"></span>
 
             <div>
-                <button routerLink="account" class="btn btn-primary">Account
+                <button style="line-height: 0.9;" routerLink="accounts" class="btn btn-primary">Account
                 <i style="font-size: 30px;" class="fa fa-user"></i>
                 </button>
             </div>
 
-            <div>
-                <button routerLink="order" class="btn btn-primary">Orders
-                <i style="font-size: 30px;" class="fa-brands fa-first-order"></i>
-            </button>
+            <div class="selling">
+                <button style="line-height: 1.1; text-size-adjust: 35px;" routerLink="selling" class="btn btn-primary">Selling
+                <i style="font-size: 30px;" ></i>
+                </button>
             </div>
-
 
         </div>
         <button routerLink="cart" class="btn btn-primary">

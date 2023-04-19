@@ -20,7 +20,7 @@ export class HeaderComponent implements OnInit {
 
   }
   search(event : any){
-    // this.searchTerm = (event.target as HTMLInputElement).value
+    this.searchTerm = (event.target as HTMLInputElement).value
     console.log(this.searchTerm)
     this.cartservice.search.next(this.searchTerm)
   }

@@ -4,7 +4,7 @@
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background: #fff;
+    background: whitesmoke;
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: .25rem;
@@ -12,10 +12,11 @@
 
 .item img {
     width: 64px;
+    height: 64px;
 }
 
 .item {
-    margin: 0px 15px;
+    margin: 0px 20px;
     text-align: center;
 }
 
@@ -26,6 +27,7 @@
 .card {
     padding: 15px;
     margin: 90px;
+    background-color: seashell;
 }
 
 .card img {

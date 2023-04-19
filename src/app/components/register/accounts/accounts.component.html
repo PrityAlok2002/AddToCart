@@ -1,0 +1,234 @@
+
+
+  
+  <br>
+  <form>
+    <div class ="signup"><br>
+      <H3>YOU ARE ALREADY A REGISTERED USER, PLEASE LOGIN</H3>  
+      <br>
+      <div class="form-group" style="font-weight: 500;">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="text" style="border-color: black;" #email class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div><br>
+      <div class="form-group" style="font-weight: 500;">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="text" style="border-color: black;" #password class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div><br>
+      <button style="color: black; font-weight: 590; margin-left: 6%;" type="submit" class="btn btn-primary" (click)="onSignin(email.value,password.value) ">SIGN IN</button>
+
+      <h6>If you are a new user click here for new registration<button class="btn btn-primary" routerLink="/signup">SIGNUP</button></h6><br><br>
+      </div>
+    </form>
+    <br>
+    <!-- <app-logout *ngIf="isSignedIn" (isLogout)="handleLogout()"></app-logout> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Modal -->
+  <!-- <div class="container">
+  <nav class="navbar navbar-light bg-primary">
+    <div class="container-fluid">
+        
+        <div class="d-flex flex-row-reverse">
+            <button  (click)="clickShowModal()" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Register Yourself</button>
+        </div>
+    </div>
+</nav>
+
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">SIGNIN</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form >
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="text" #email formControlName="email" class="form-control" id="email">
+                  </div>
+
+  
+                  
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="text" #password formControlName="password" class="form-control" id="exampleInputPassword1">
+                  </div>
+                
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" (click)="onSignin(email.value,password.value)" >SIGNIN</button>
+          
+         
+        </div>
+      
+        <h5>NEW HERE ?<button routerLink="/signup"> CLICK HERE </button>FOR REGISTRATION</h5>
+        <td><button routerLink="/signup" class="btn btn-primary">Shop More</button></td>
+
+    </div>
+  </div> -->
+
+
+
+
+
+       <!-- <button *ngIf="" type="button" (click)="()" class="btn btn-primary">Update</button> -->
+
+
+
+
+
+
+
+
+
+
+
+       <!-- <div class="login-page">
+        <mat-card class="mat-elevation-z12">
+          <mat-card-title style="text-align:center;">SignIn/SignUp</mat-card-title>
+          <mat-tab-group mat-stretch-tabs class="example-stretched-tabs">
+            <mat-tab label="Sign In">
+                <mat-card-content>
+                  <form action="">
+                    <mat-form-field>
+                      <input
+                        matInput
+                        placeholder="Email"
+                        required
+                        name="email"
+                        ngModel
+                        #email="ngModel">
+                        <mat-error *ngIf="email.invalid">Email is required</mat-error>
+                      <mat-icon matSuffix>email</mat-icon>
+                    </mat-form-field>
+                    <mat-form-field>
+                      <input
+                        matInput
+                        placeholder="Password"
+                        type="password"
+                        required
+                        minlength="6"
+                        name="password"
+                        ngModel
+                        #password="ngModel">
+                        <mat-error
+                          *ngIf="password.errors && password.errors.required">
+                          Password is required
+                        </mat-error>
+                        <mat-error
+                          *ngIf="password.errors && password.errors.minlength">
+                          Password must be of length 6
+                        </mat-error>
+                      <mat-icon matSuffix>lock</mat-icon>
+                    </mat-form-field>
+                    <mat-checkbox>Remember Me!</mat-checkbox>
+                    <button
+                      mat-raised-button
+                      color="primary"
+                      class="login-button">
+                      Sign In
+                    </button>
+      
+                    <button
+                      mat-raised-button
+                      class="login-button">
+                      Login with Google
+                    </button>
+                  </form>
+                </mat-card-content>
+            </mat-tab>
+            <mat-tab label="Sign Up">
+              <mat-card-content>
+                <form action="">
+                  <mat-form-field>
+                    <input
+                      matInput
+                      placeholder="User Name"
+                      required
+                      name="username"
+                      ngModel
+                      #username="ngModel">
+                    <mat-icon matSuffix>perm_identity</mat-icon>
+                    <mat-error
+                      *ngIf="username.invalid">
+                      Username is required
+                    </mat-error>
+      
+                  </mat-form-field>
+                  <mat-form-field>
+                    <input
+                      matInput
+                      placeholder="Email"
+                      required
+                      name="email"
+                      ngModel
+                      #email="ngModel">
+                      <mat-error *ngIf="email.invalid">Email is required</mat-error>
+                    <mat-icon matSuffix>email</mat-icon>
+                  </mat-form-field>
+                  <mat-form-field>
+                    <input
+                      matInput
+                      placeholder="Password"
+                      type="password"
+                      required
+                      minlength="6"
+                      name="password"
+                      ngModel
+                      #password="ngModel">
+                      <mat-error
+                        *ngIf="password.errors && password.errors.required">
+                        Password is required
+                      </mat-error>
+                      <mat-error
+                        *ngIf="password.errors && password.errors.minlength">
+                        Password must be of length 6
+                      </mat-error>
+                    <mat-icon matSuffix>lock</mat-icon>
+      
+                  </mat-form-field>
+                  <mat-form-field>
+                      <input
+                      matInput
+                      placeholder="Password"
+                      type="password"
+                      required
+                      minlength="6"
+                      name="repassword"
+                      ngModel
+                      #repassword="ngModel">
+                      <mat-error
+                        *ngIf="repassword.errors && repassword.errors.required">
+                        Re-Enter Password is required
+                      </mat-error>
+                    <mat-icon matSuffix>lock</mat-icon>
+                  </mat-form-field>
+                  <button
+                    mat-raised-button
+                    color="primary"
+                    class="login-button">
+                    Sign Up
+                  </button>
+                </form>
+              </mat-card-content>
+            </mat-tab>
+          </mat-tab-group>
+        </mat-card>
+      </div>
+       -->
