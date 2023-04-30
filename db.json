@@ -31,7 +31,7 @@
       "id": 4,
       "title": "Mens denim Jacket",
       "description": "Great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
-      "price" : "1200",
+      "price" : 1200,
       "image" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyvRXg_gbr9S4KuAcq8jc_fbw1GLcjBjw5Ybiuor73jcqB2HTxTcHteJaOgtJxDNz1nuw&usqp=CAU",
       "category" : "fashion"  
     },
@@ -40,7 +40,7 @@
       "id": 5,
       "title": "Mens Cotton Shirt",
       "description": "Great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
-      "price" : "1200",
+      "price" : 700,
       "image" :"data:image/jpeg;base64,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",
       "category" : "fashion"  
     },
@@ -49,7 +49,7 @@
       "id": 6,
       "title": "Women Onepiece",
       "description": "Great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
-      "price" : "1200",
+      "price" : 500,
       "image" :"https://5.imimg.com/data5/OE/JG/GC/SELLER-80005850/61o7od9cppl-edited-500x500.jpg",
       "category" : "fashion"  
     },
@@ -58,7 +58,7 @@
       "id": 7,
       "title": "Women Silk Blended Saree",
       "description": "Great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
-      "price" : "1200",
+      "price" : 1000,
       "image" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQdynAq8ZyReknEtLyuT4I-AMEuDP44rdMnQ&usqp=CAU",
       "category" : "fashion"  
     },
@@ -67,16 +67,16 @@
       "id": 8,
       "title": "Embroider Work Saree",
       "description": "Great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
-      "price" : "1200",
+      "price" : 1200,
       "image" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8sLXxXN276QmqCr_WDAzQD6MlvsmsWGvD88Pb5RmG_7DcVq6Mro0LCWHvDMl9bOTRTrg&usqp=CAU",
       "category" : "fashion"  
     },
 
     {
       "id": 9,
-      "title": "Women Top",
+      "title": "Mens tshirt",
       "description": "Great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
-      "price" : "1200",
+      "price" : 300,
       "image" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8lf0pBniq3UPsqpkIBAA8SbCES27MmkGzTg&usqp=CAU",
       "category" : "fashion"  
     },
@@ -85,7 +85,7 @@
       "id": 10,
       "title": "Leaf Bass Pro Wireless Headphone",
       "description": "Buy Leaf Bass Pro Wireless Bluetooth Headphones with Mic Online at Leaf Studios. This product comes with deep bass, fast charging and 20 hours power backup.",
-      "price" : "1699",
+      "price" : 1699,
       "image" :"data:image/jpeg;base64,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",
       "category" : "electronics"  
     },
@@ -94,7 +94,7 @@
       "id": 11,
       "title": "iPhone 12",
       "description": "The iPhone 12 is 5G capable, has a 6.1.New Ultra Wide camera., Go big — the new Ultra Wide camera captures four times more scene. Think breathtaking landscapes that go on forever.",
-      "price" : "51900",
+      "price" : 51900,
       "image" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJsUdYNoEGvQlV6IfxO0TmpeY3FX8lRuHBy_wKv78mWIZgVnb_SjnBFWVe-SnupWA7EXQ&usqp=CAU",
       "category" : "electronics"  
     },
@@ -103,7 +103,7 @@
       "id": 12,
       "title": "Huawei Laptop",
       "description": "Notebook Matebook 14 (14,Intel Core i5, RAM 16 GB,512 GB 14 I5 KELVIND WFH9A)",
-      "price" : "53000",
+      "price" : 53000,
       "image" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGxary4g0eoDvgrxIOgxaX9fcCpWxV-lD7Rrx5cQMnHW72ZMZ2OIGTDmrbdFsyYw2nSOw&usqp=CAU",
       "category" : "electronics"  
     },
@@ -112,7 +112,7 @@
       "id": 13,
       "title": "Acer Gaming Laptop",
       "description": "Acer Nitro AN515-55-53E5 Gaming Laptop Intel Core I5-10300H NVIDIA GeForce RTX 3050 Laptop GPU FHD 144Hz IPS-Scherm GB DDR4 256 GB",
-      "price" : "70599",
+      "price" : 70599,
       "image" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYFe1JkQlMdC9hsm-jxwkLbTECXeOuGXJ4LFEcSzHluRrsDbpZbt2qFNIEx6t5mOlzdBE&usqp=CAU",
       "category" : "electronics"  
     },
@@ -121,7 +121,7 @@
       "id": 14,
       "title": "Powerbank",
       "description": "Baseus lithium polymer Power Bank, 65W 20000mAh Laptop Portable Charger, Fast Charging USB C 4-Port PD3.0 Battery Pack For MacBook Dell XPS IPad iPhone 13/12 Pro Mini Samsung Switch - Blue",
-      "price" : "1788",
+      "price" : 1788,
       "image" :"https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61-IU-EvbiL._SX679_.jpg",
       "category" : "electronics"  
     },
@@ -130,7 +130,7 @@
       "id": 15,
       "title": "Sandisk Pendrive",
       "description": "Great outerear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
-      "price" : "589",
+      "price" : 589,
       "image" :"https://www.easyshoppi.com/wp-content/uploads/2020/01/51TQpbMIrrL._SL1000_1.jpg",
       "category" : "electronics"  
     },
@@ -139,7 +139,7 @@
       "id": 16,
       "title": "Ring for Women",
       "description": "Old Marguerite Sapphire Diamond Ring",
-      "price" : "4599",
+      "price" : 4599,
       "image" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuoIMfo5lSGebH4WBoGGM00CV9y_5fe6p0V3pVslgz9hQCK5FKaIenXmuejwFFHBOAbg4&usqp=CAU",
       "category" : "jewelery"  
     },
@@ -148,7 +148,7 @@
       "id": 17,
       "title": "Pendant for women",
       "description": "Largest size: 5000 x 3700 px (16.67 x 12.33 in.) - 300 dpi - RGB",
-      "price" : "1200",
+      "price" : 1200,
       "image" :"https://live.staticflickr.com/5486/10311078836_59efa5e12c_b.jpg",
       "category" : "jewelery"  
     },
@@ -157,7 +157,7 @@
       "id": 18,
       "title": "Bangles for Women",
       "description": "Sukriti Rajasthani Handcrafted Kundan Pearl Plastic Red Bridal Chuda Bangles for Women ",
-      "price" : "460",
+      "price" : 460,
       "image" :"http://cdn.shopify.com/s/files/1/0333/5467/8317/products/sukriti-rajasthani-handcrafted-kundan-pearl-plastic-red-bridal-chuda-bangles-for-women-set-of-18-sukriti-bangles-1.jpg?v=1638270144",
       "category" : "jewelery"  
     },
@@ -166,7 +166,7 @@
       "id": 19,
       "title": "Bangles for Women",
       "description": "Sukriti Stylish Handmade Baby-Pink Flower Designer Silk thread Plastic Bridal Chuda Wedding Bangles for Women.",
-      "price" : "585",
+      "price" : 585,
       "image" :"https://cdn.shopify.com/s/files/1/0333/5467/8317/products/sukriti-stylish-handmade-baby-pink-flower-designer-silk-thread-plastic-bridal-chuda-wedding-bangles-for-women-set-of-18-sukriti-bangles-1_1024x1024@2x.jpg?v=1640686641",
       "category" : "jewelery"  
     },
@@ -175,7 +175,7 @@
       "id": 20,
       "title": "Simple Saree",
       "description": "Embellished Bollywood Lycra Blend Saree  (Black)",
-      "price" : "1200",
+      "price" : 1200,
       "image" :"https://rukminim1.flixcart.com/image/612/612/xif0q/sari/j/u/u/free-embellished-sdk-fashion-unstitched-original-image9gppyg4ahyf.jpeg?q=70",
       "category" : "fashion"  
     },
@@ -184,7 +184,7 @@
       "id": 21,
       "title": "Lahenga for party wear",
       "description": "Fashion Basket Organza Printed Lehenga Choli For Womens .",
-      "price" : "1200",
+      "price" : 1200,
       "image" :"https://m.media-amazon.com/images/I/819FhE0WCZL._UY606_.jpg",
       "category" : "fashion"  
     },
@@ -193,7 +193,7 @@
       "id": 22,
       "title": "Party wear lahenga for womens",
       "description": "Party Wear Mustard Thread Work Net Ready To Wear Lehenga Choli",
-      "price" : "1499",
+      "price" : 1499,
       "image" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR55XofKrrdI_AeRVYAFGgmcjOMh-IABtOP0tJn9g4XN80Z6G0gc1U6f1EPDNnLZe4aMAY&usqp=CAU",
       "category" : "thrift"  
     },
@@ -202,7 +202,7 @@
       "id": 23,
       "title": "Pendant for women",
       "description": "22 Karat Gold Chain For Women.",
-      "price" : "12000",
+      "price" : 12000,
       "image" :"https://image.reliancejewels.com/Jewels/images/productImages/837/22-karat-gold-chain-for-women-large_188d8c1fc05daed0ab53ab8778a7b7e1.jpg",
       "category" : "jewelery"  
     },
@@ -211,7 +211,7 @@
       "id": 24,
       "title": "Bangles for Women",
       "description": "Great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
-      "price" : "333",
+      "price" : 333,
       "image" :"https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/81iOtF2CKpL._UY695_.jpg",
       "category" : "jewelery"  
     },
@@ -219,7 +219,7 @@
       "id": 25,
       "title": "Party wear lahenga for womens",
       "description": "Party Wear Beige Thread Work Net Ready To Wear Lehenga Choli.",
-      "price" : "4000",
+      "price" : 4000,
       "image" :"https://stimg.b-cdn.net/images/500/data/2022y/November/36510/Party-Wear-Beige-Thread-Work-Net-Ready-To-Wear-Lehenga-Choli-SHUBHRA2-DRS1020.jpg",
       "category" : "thrift"  
     },
@@ -227,7 +227,7 @@
       "id": 26,
       "title": "Gown for womens",
       "description": "Ladies Designer Party Wear Gown",
-      "price" : "2500",
+      "price" : 2500,
       "image" :"https://5.imimg.com/data5/ES/HG/MY-65039964/ladies-party-wear-gown-500x500.jpg",
       "category" : "thrift"  
     },
@@ -235,7 +235,7 @@
       "id": 27,
       "title": "Gown for womens",
       "description": "Lovers Rose Gold Gown by Nookie",
-      "price" : "2000",
+      "price" : 2000,
       "image" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn3J5A6W_NpQrZfOSugdgu7ZPLwsANY2t-tnHL_w3opGefqxfHy8vbzTueE0Z9p74mjOM&usqp=CAU",
       "category" : "thrift"  
     },
@@ -243,7 +243,7 @@
       "id": 28,
       "title": "Party wear saree for womens",
       "description": "Fashionable saree.",
-      "price" : "1500",
+      "price" : 1500,
       "image" :"https://rukminim1.flixcart.com/image/612/612/xif0q/sari/n/r/0/free-pt-rainbow-grey-madhumeena-unstitched-original-imaghjaj3smrqp9g.jpeg?q=70",
       "category" : "thrift"  
     },
@@ -251,7 +251,7 @@
       "id": 30,
       "title": "Lahenga for kids",
       "description": "kids lahenga.",
-      "price" : "1200",
+      "price" : 1200,
       "image" :"https://kidsstoppress.com/wp-content/uploads/2022/07/images_kandukids-designer-wear-for-kids.jpg",
       "category" : "thrift"  
     },
@@ -259,7 +259,7 @@
       "id": 31,
       "title": "Girls Frock",
       "description": "Sagun Dresses Baby Girls Pink A-Line Frock (18-24 M)|Kids Wear|Girls Frock|Kids Party Wear|Clothing Accessories|Baby Girls|Dresses|Frock|",
-      "price" : "349",
+      "price" : 349,
       "image" :"https://www.jiomart.com/images/product/500x630/rvlhpmlrvq/sagun-dresses-baby-girls-pink-a-line-frock-18-24-m-kids-wear-girls-frock-kids-party-wear-clothing-accessories-baby-girls-dresses-frock-product-images-rvlhpmlrvq-0-202212011008.jpg",
       "category" : "thrift"  
     },
@@ -267,7 +267,7 @@
       "id": 32,
       "title": "T shirt for kids",
       "description": "Chupa Rustom Kids T-Shirt",
-      "price" : "375",
+      "price" : 375,
       "image" :"https://d1ejm5im4bv2vf.cloudfront.net/pub/media/mf_webp/jpg/media/catalog/product/cache/718154c3aff62b1ad64160986aa81112/c/h/chupa-rustom-kids-t-shirt-yellow444_1.webp",
       "category" : "thrift"  
     },
@@ -275,7 +275,7 @@
       "id": 33,
       "title": "T shirt for kids",
       "description": "Olele Round Neck Half Sleeve Black Tshirt | t-Shirts for Kids Boys 5-6 Years | Baby Boys tees | Baby Boys Tshirt 1 and 2 Years | Tshirt for Kids Boys | (Jeans Not Included).",
-      "price" : "299",
+      "price" : 299,
       "image" :"https://m.media-amazon.com/images/I/61MrHsSwDxL._UL1500_.jpg",
       "category" : "thrift"  
     },
@@ -283,7 +283,7 @@
       "id": 34,
       "title": "T shirt for mens",
       "description": "Fashion T Shirt Men Cotton Harajuku Streetwear Basic T-shirt For Men Fashion Summer Casual Male Top Tee Hip Hop Clothes Tshirt Plus Size-Aqua Blue",
-      "price" : "401",
+      "price" : 401,
       "image" :"https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/25/315162/1.jpg?1527",
       "category" : "thrift"  
     },
@@ -291,7 +291,7 @@
       "id": 35,
       "title": "T shirt for mens",
       "description": "Logo Print T-shirt with Crew-Neck.",
-      "price" : "300",
+      "price" : 300,
       "image" :"https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/35/661172/1.jpg?7939",
       "category" : "thrift"  
     },
@@ -299,7 +299,7 @@
       "id": 36,
       "title": "T-sirt for girls",
       "description": "Great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
-      "price" : "1200",
+      "price" : 1200,
       "image" :"https://m.media-amazon.com/images/I/61PANX74ZQL._UL1309_.jpg",
       "category" : "thrift"  
     },
@@ -307,7 +307,7 @@
       "id": 37,
       "title": "Top for girls",
       "description": "GRECIILOOKS Women's Plain Lycra with Plain Design on HaGL-Sleeve Regular Fit Office wear,Casual wear Top",
-      "price" : "299",
+      "price" : 299,
       "image" :"https://m.media-amazon.com/images/I/51cx4GfloDL.jpg",
       "category" : "thrift"  
     },
@@ -315,7 +315,7 @@
       "id": 38,
       "title": "Top for girls",
       "description": "Wedani Women's Casual Puff Sleeves V Neck Foral Top",
-      "price" : "299",
+      "price" : 299,
       "image" :"https://m.media-amazon.com/images/I/81KtAJ495-L._UL1500_.jpg",
       "category" : "thrift"  
     },
@@ -323,7 +323,7 @@
       "id": 39,
       "title": "Lahenga for party wear",
       "description": "Apnisha Women's Banglory Satin Semi-Stitched Lehenga Choli",
-      "price" : "359",
+      "price" : 359,
       "image" :"https://www.jiomart.com/images/product/original/rvcmvamyen/apnisha-women-s-banglory-satin-semi-stitched-lehenga-choli-product-images-rvcmvamyen-0-202205171735.jpg",
       "category" : "thrift"  
     },
@@ -331,7 +331,7 @@
       "id": 40,
       "title": "Lahenga for party wear",
       "description": "Light Blush Pink Lehenga Choli",
-      "price" : "5200",
+      "price" : 5200,
       "image" :"https://images.meesho.com/images/products/250681420/8dfrr_256.webp",
       "category" : "thrift"  
     },
@@ -339,7 +339,7 @@
       "id": 41,
       "title": "Shirt for womens",
       "description": "Sanskriti Fashion Trendy Women Formal Office Wear Casual Shirt.",
-      "price" : "400",
+      "price" : 400,
       "image" :"https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/312Q3Naoj9L._UY550_.jpg",
       "category" : "thrift"  
     },
@@ -347,7 +347,7 @@
       "id": 42,
       "title": "Shirt for mens",
       "description": "Lymio Casual Shirt for Men Shirt for Men",
-      "price" : "499",
+      "price" : 499,
       "image" :"https://m.media-amazon.com/images/I/91D3xTDLwrL._UX522_.jpg",
       "category" : "thrift"  
     },
@@ -355,7 +355,7 @@
       "id": 43,
       "title": "Shoes for mens",
       "description": "Waan Sport Shoes Athletic Lightweight Breathable Running Casual Walking Comfortable Ultralight Men's Sports Light Weighted Shoe with Mesh Designed Lace-up Running Shoes for Men",
-      "price" : "599",
+      "price" : 599,
       "image" :"https://m.media-amazon.com/images/I/715TLEvzxUS._UY500_.jpg",
       "category" : "fashion"  
     },
@@ -363,7 +363,7 @@
       "id": 44,
       "title": "Black shoes for mens",
       "description": "Color : BlackUpper Material : Faux LeatherCasual Shoes Type : Sneakers",
-      "price" : "639",
+      "price" : 639,
       "image" :"https://pirinsport.bg/image/cache/catalog/nike%20pictures-%D0%BE%D0%B1%D1%83%D0%B2%D0%BA%D0%B8/DC3728-004%202-700x700.jpg",
       "category" : "fashion"  
     },
@@ -371,14 +371,14 @@
       "id": 45,
       "title": "Heels for women",
       "description": "Stylish black shade, ankle straps for support and block heels for perfect balance and posture. The buckle design at the back lends the heels a unique look.",
-      "price" : "599",
+      "price" : 599,
       "image" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs33UeG3p4qALUin1xnmpie5rXtBtqe7bfobWyY1kZC5b33FlxqD5_U-swfC_PIEn7nQU&usqp=CAU",
       "category" : "fashion"  
     },    {
       "id": 46,
       "title": "Shoes for women",
       "description": "Color : BlackUpper Material : Faux LeatherCasual Shoes Type : Sneakers",
-      "price" : "500",
+      "price" : 500,
       "image" :"https://n4.sdlcdn.com/imgs/k/l/i/230X258_sharpened/ASIAN-Peach-Women-s-Sneakers-SDL592809716-1-2cb4d.jpg",
       "category" : "fashion"  
     }

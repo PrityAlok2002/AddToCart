@@ -51,7 +51,8 @@
           </div>
           <div class="form-group" style="font-weight: 500;">
             <label for="exampleFormControlInput1">Product image</label>
-            <input type="file" style="border-color: black;" formControlName="image" class="form-control" id="exampleFormControlInput1" placeholder="Select file type" accept=".jpg, .jpeg, .png">
+            <img [src]="url" alt="">
+            <input type="file" style="border-color: black;"  formControlName="image" class="form-control" id="exampleFormControlInput1" placeholder="Select file type" accept=".jpg, .jpeg, .png" (change)="selectFile($event)">
           </div>
        
         <div class="form-group" style="font-weight: 500;">

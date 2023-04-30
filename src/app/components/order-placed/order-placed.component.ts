@@ -17,6 +17,6 @@ export class OrderPlacedComponent implements OnInit {
 
 
   orderplaced(){
-    
+    alert(`Hey, your address are added successfully`)
   }
 }

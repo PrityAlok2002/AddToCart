@@ -29,9 +29,6 @@ export class ProductsComponent implements OnInit {
              a.category="fashion"
         }
 
-        if(a.category==="women's clothing"){
-             a.category="thrift"
-        }
 
         Object.assign(a,{quantity:1,total:a.price})  
       });
@@ -41,12 +38,10 @@ export class ProductsComponent implements OnInit {
     this.cartservice.search.subscribe((val:any)=>{
       this.searchKey = val;
     })
-
   }
 
   addtocart(item : any){
     this.cartservice.addToCart(item)
-    // alert(`${item} ,ADDED SUCCESSFULLY`)
     alert(`ADDED SUCCESSFULLY`)
 
   }

@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {FormControl, FormGroup, Validators} from "@angular/forms";
 import { ProductService } from 'src/app/services/product.service';
-// import { FirebaseService } from 'src/app/services/firebase.service';
 
 @Component({
   selector: 'app-selling',
@@ -43,6 +42,17 @@ addProduct(){
 
  onSubmit(){
   console.warn(this.productForm.value);
+ }
+
+ url = ""
+ selectFile(event:any){
+  if(event.target.files){
+    var reader = new FileReader()
+    reader.readAsDataURL(event.target.files[0])
+    reader.onload = (event:any)=> {
+      this.url = event.target.result
+    }
+  }
  }
 
 }
